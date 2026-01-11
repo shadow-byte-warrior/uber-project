@@ -174,23 +174,8 @@ AI & Machine Learning Enthusiast
 
 GitHub: [https://github.com/shadow-byte-warrior](https://github.com/shadow-byte-warrior)
 
----
 
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
-
-````
-
----
-
-## ✅ What You Should Do Now
-
-1. Create a file named **`README.md`** in your project folder  
-2. Paste the above content  
-3. Run:
-```bash
-git add README.md
 git commit -m "Add project README"
 git push
+
 
