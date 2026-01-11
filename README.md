@@ -1,15 +1,4 @@
 
-![Uploading Screenshot 2026-01-11 212516.png…]()
-
-
-```markdown
-# 🚕 Uber Weekly Rides Prediction – Machine Learning Web App
-
-A Machine Learning–based web application that predicts the **number of weekly Uber rides** based on key urban and economic factors.  
-The application is built using **Python, Scikit-learn, and Flask**, with a simple HTML/CSS frontend.
-
----
-
 ## 📌 Project Overview
 
 Accurately estimating weekly ride demand is important for:
@@ -176,6 +165,7 @@ GitHub: [https://github.com/shadow-byte-warrior](https://github.com/shadow-byte-
 
 git commit -m "Add project README"
 git push
+
 
 
 
