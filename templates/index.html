@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Rides Prediction</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="container-heading">
+            <span class="heading_font">Uber Prediction</span>
+        </h2>
+        <div class="description">
+            <p>A Machine Learning Web App built with Flask</p>
+        </div>
+    </div>
+
+    <div class="ml-container">
+        <form action="{{ url_for('predict') }}" method="POST">
+
+            <input class="form-input" type="number" name="Priceperweek"
+                   placeholder="Price per week (e.g. 25)" required>
+
+            <input type="number" name="Population" placeholder="Population (e.g., 1800000)" required>
+
+
+            <input class="form-input" type="number" name="Monthlyincome"
+                   placeholder="Monthly income (e.g. 20000)" required>
+
+            <input class="form-input" type="number" name="Averageparkingpermonth"
+                   placeholder="Avg parking per month (e.g. 90)" required>
+
+            <button type="submit" class="my-cta-button">Predict</button>
+        </form>
+    </div>
+
+    <div class="result">
+        {{ predict_text }}
+    </div>
+
+</body>
+</html>
