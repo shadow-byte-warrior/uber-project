@@ -1,7 +1,5 @@
-Perfect. Below is a **clean, professional, copy-paste ready `README.md`** for your project.
-This is **resume-ready, GitHub-ready**, and written like a real ML deployment project.
+![Uploading image.png…]()
 
----
 
 ```markdown
 # 🚕 Uber Weekly Rides Prediction – Machine Learning Web App
@@ -177,5 +175,6 @@ GitHub: [https://github.com/shadow-byte-warrior](https://github.com/shadow-byte-
 
 git commit -m "Add project README"
 git push
+
 
 
