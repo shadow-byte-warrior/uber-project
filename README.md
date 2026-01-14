@@ -117,6 +117,7 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
+<img width="1413" height="702" alt="image" src="https://github.com/user-attachments/assets/1e968183-3722-4a1e-8589-05736af5d4b5" />
 
 ---
 
@@ -165,6 +166,7 @@ GitHub: [https://github.com/shadow-byte-warrior](https://github.com/shadow-byte-
 
 git commit -m "Add project README"
 git push
+
 
 
 
